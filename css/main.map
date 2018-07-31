@@ -1,0 +1,32 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layout/_header.scss';\r\n@import 'layout/_footer.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';\r\n",
+		"",
+		"@mixin border-radius($radius:30px){\r\n    -webkit-border-radius:$radius;\r\n    -moz-border-radius:$radius;\r\n    border-radius:$radius;\r\n}\r\n",
+		"* {\r\n  margin:0;\r\n  padding:0;\r\n}\r\n\r\nul,li {\r\n  list-style: none;\r\n}\r\n",
+		"body {\r\n  font-family:\"Georgia\", sans-serif;\r\n  font-size:20px;\r\n  color:#666;\r\n  line-height: 1.5em;\r\n  background:#f4f4f4;\r\n  }\r\n\r\n#container {\r\n  width:960px;\r\n  margin:20px auto;\r\n  overflow: auto;\r\n  border:#ccc solid 1px;\r\n  background:white;\r\n  @include border-radius;\r\n\r\n}\r\n\r\n\r\nnav {\r\n  height:50px;\r\n  background:black;\r\n  color:white;\r\n  padding-top:10px;\r\n}\r\n\r\nnav li {\r\n  float:left;\r\n  padding: 0 20px 0 20px;\r\n}\r\n\r\nnav a  {\r\n  color:white;\r\n}\r\n\r\nsection {\r\n  min-height: 200px;\r\n}\r\n\r\nfooter {\r\n  text-align:center;\r\n}\r\n",
+		"header {\r\n    background:red;\r\n    color:#74ff8e;\r\n    height:100px;\r\n\r\n\r\n    h1 {\r\n      padding:20px 0 0 10px;\r\n    }\r\n}\r\n",
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+	"mappings": ";AGAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAC,CAAE;EACT,OAAO,EAAC,CAAE;CACX;;;AAED,AAAA,EAAE,EAAC,AAAA,EAAE,CAAC;EACJ,UAAU,EAAE,IAAK;CAClB;;;ACPD,AAAA,IAAI,CAAC;EACH,WAAW,EAAC,qBAAsB;EAClC,SAAS,EAAC,IAAK;EACf,KAAK,EAAC,IAAK;EACX,WAAW,EAAE,KAAM;EACnB,UAAU,EAAC,OAAQ;CAClB;;;AAEH,AAAA,UAAU,CAAC;EACT,KAAK,EAAC,KAAM;EACZ,MAAM,EAAC,SAAU;EACjB,QAAQ,EAAE,IAAK;EACf,MAAM,EAAC,cAAe;EACtB,UAAU,EAAC,KAAM;EFZf,qBAAqB,EADI,IAAI;EAE7B,kBAAkB,EAFO,IAAI;EAG7B,aAAa,EAHY,IAAI;CEgBhC;;;AAGD,AAAA,GAAG,CAAC;EACF,MAAM,EAAC,IAAK;EACZ,UAAU,EAAC,KAAM;EACjB,KAAK,EAAC,KAAM;EACZ,WAAW,EAAC,IAAK;CAClB;;;AAED,AAAI,GAAD,CAAC,EAAE,CAAC;EACL,KAAK,EAAC,IAAK;EACX,OAAO,EAAE,aAAc;CACxB;;;AAED,AAAI,GAAD,CAAC,CAAC,CAAE;EACL,KAAK,EAAC,KAAM;CACb;;;AAED,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,KAAM;CACnB;;;AAED,AAAA,MAAM,CAAC;EACL,UAAU,EAAC,MAAO;CACnB;;;ACzCD,AAAA,MAAM,CAAC;EACH,UAAU,EAAC,GAAI;EACf,KAAK,EAAC,OAAQ;EACd,MAAM,EAAC,KAAM;CAMhB;;;AATD,AAMI,MANE,CAMF,EAAE,CAAC;EACD,OAAO,EAAC,aAAc;CACvB",
+	"names": []
+}
